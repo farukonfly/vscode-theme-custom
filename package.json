@@ -27,7 +27,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "eclipse-color-theme",
+                "label": "Eclipse Color Theme",
                 "uiTheme": "vs",
                 "path": "./themes/eclipse-color-theme-color-theme.json"
             }
