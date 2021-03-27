@@ -563,7 +563,16 @@
         "interface": {
             "foreground": "#6F42C1",
             "fontStyle": "italic"
-        }
+        },
+        "enumMember": {
+            "foreground": "#C46200",
+            "fontStyle": "italic bold"
+        },
+        //java:public static final
+        "property.static.readonly.public":{
+            "foreground": "#C46200",
+            "fontStyle": "italic bold"
+        } 
     },
     "tokenColors": [
         {
@@ -979,16 +988,6 @@
             "settings": {
                 "foreground": "#7F0052",
                 "fontStyle": "bold"
-            }
-        },
-        {
-            "name": "java.static.final",
-            "scope": [
-                "constant.other.enum.java"
-            ],
-            "settings": {
-                "foreground": "#C46200",
-                "fontStyle": "italic bold"
             }
         },
         {
