@@ -1,0 +1,36 @@
+{
+    "name": "eclipse-color-theme",
+    "displayName": "eclipse-color-theme",
+    "description": "",
+    "publisher": "farukon",
+    "version": "0.0.1",
+    "author": {
+        "name": "farukon"
+    },
+    "galleryBanner": {
+        "theme": "light"
+    },
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Eclipse",
+        "Theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/farukonfly/vscode-theme-eclipse"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "eclipse-color-theme",
+                "uiTheme": "vs",
+                "path": "./themes/eclipse-color-theme-color-theme.json"
+            }
+        ]
+    }
+}
