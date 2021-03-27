@@ -554,6 +554,17 @@
         //"window.activeBorder": null,
         //"window.inactiveBorder": null
     },
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "class": {
+            "foreground": "#00509B",
+            "fontStyle": "bold"
+        },
+        "interface": {
+            "foreground": "#6F42C1",
+            "fontStyle": "italic"
+        }
+    },
     "tokenColors": [
         {
             "scope": [
@@ -964,7 +975,6 @@
                 "storage.type.primitive.java",
                 "storage.modifier.extends.java",
                 "storage.modifier.implements.java"
-                
             ],
             "settings": {
                 "foreground": "#7F0052",
@@ -972,58 +982,42 @@
             }
         },
         {
-            "name": "java.classes",
-            "scope": [
-                "entity.name.type.class.java",
-                "variable.other.object.java",
-                "storage.type.java",
-                "storage.type.generic.java"
-            ],
-            "settings": {
-                "foreground": "#00509B",
-                "fontStyle": "bold"
-            }
-        },{
             "name": "java.static.final",
-            "scope":[
+            "scope": [
                 "constant.other.enum.java"
             ],
             "settings": {
                 "foreground": "#C46200",
                 "fontStyle": "italic bold"
             }
-        },{
-            "name":"java.interface",
-            "scope":[
-                "meta.definition.class.implemented.interfaces.java"
+        },
+        {
+            "name": "java.javadoc.keywords",
+            "scope": [
+                "keyword.other.documentation.javadoc.java"
             ],
             "settings": {
-                "foreground": "#6F42C1",
-                "fontStyle": "italic"
-            }
-        },{
-            "name":"java.javadoc.keywords",
-            "scope":[
-                "keyword.other.documentation.javadoc.java"
-            ],"settings": {
                 "foreground": "#7F9FBF",
                 "fontStyle": "bold"
             }
-        },{
+        },
+        {
             "name": "java.javadoc.comments",
-            "scope":[
+            "scope": [
                 "comment.block.javadoc.java"
-            ],"settings": {
+            ],
+            "settings": {
                 "foreground": "#3F5FBF"
             }
-        },{
-           "name":"java.annotation",
-           "scope":[
-               "storage.type.annotation.java"
-           ],"settings": {
-               "foreground": "#646464"
-       
-           } 
+        },
+        {
+            "name": "java.annotation",
+            "scope": [
+                "storage.type.annotation.java"
+            ],
+            "settings": {
+                "foreground": "#646464"
+            }
         }
     ]
 }
