@@ -560,6 +560,10 @@
             "foreground": "#00509B",
             "fontStyle": "bold"
         },
+        "enum":{
+            "foreground": "#00509B",
+            "fontStyle": "bold"  
+        },
         "interface": {
             "foreground": "#6F42C1",
             "fontStyle": "italic"
@@ -569,10 +573,10 @@
             "fontStyle": "italic bold"
         },
         //java:public static final
-        "property.static.readonly.public":{
+        "property.static.readonly.public": {
             "foreground": "#C46200",
             "fontStyle": "italic bold"
-        } 
+        }
     },
     "tokenColors": [
         {
@@ -976,8 +980,9 @@
             }
         },
         {
-            "name": "java.keywords",
+            "name": "java.keywords.exclude return",
             "scope": [
+                "keyword.control.new.java",
                 "keyword.other.import.java",
                 "keyword.other.package.java",
                 "storage.modifier.java",
@@ -988,6 +993,16 @@
             "settings": {
                 "foreground": "#7F0052",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "java.keyword.return",
+            "scope":[
+                "keyword.control.java"
+            ],
+            "settings": {
+                "foreground": "#7F0052",
+                "fontStyle": "bold italic"
             }
         },
         {
