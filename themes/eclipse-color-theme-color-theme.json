@@ -560,22 +560,26 @@
             "foreground": "#00509B",
             "fontStyle": "bold"
         },
+        "class.abstract":{
+            "foreground": "#00509B",
+            "fontStyle": "bold italic"
+        },
         "enum":{
             "foreground": "#00509B",
             "fontStyle": "bold"  
         },
         "interface": {
             "foreground": "#6F42C1",
-            "fontStyle": "italic"
+            "fontStyle": "italic bold"
         },
         "enumMember": {
             "foreground": "#C46200",
-            "fontStyle": "italic bold"
+            "fontStyle": "italic"
         },
         //java:public static final
         "property.static.readonly.public": {
             "foreground": "#C46200",
-            "fontStyle": "italic bold"
+            "fontStyle": "italic"
         }
     },
     "tokenColors": [
