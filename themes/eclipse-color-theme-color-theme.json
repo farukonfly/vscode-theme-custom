@@ -57,7 +57,7 @@
         //"checkbox.background": "#ffffff",
         //"checkbox.border": "#cecece",
         //"debugConsole.errorForeground": "#a1260d",
-        //"debugConsole.infoForeground": "#75beff",
+        "debugConsole.infoForeground": "#000000",
         //"debugConsole.sourceForeground": "#616161",
         //"debugConsole.warningForeground": "#bf8803",
         //"debugConsoleInputIcon.foreground": "#616161",
@@ -556,17 +556,20 @@
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "keyword":{
+            "foreground": "#7F0052"
+        },
         "class": {
             "foreground": "#00509B",
             "fontStyle": "bold"
         },
-        "class.abstract":{
+        "class.abstract": {
             "foreground": "#00509B",
             "fontStyle": "bold italic"
         },
-        "enum":{
+        "enum": {
             "foreground": "#00509B",
-            "fontStyle": "bold"  
+            "fontStyle": "bold"
         },
         "interface": {
             "foreground": "#6F42C1",
@@ -816,10 +819,12 @@
                 "string.quoted.single.html",
                 "string.unquoted.html",
                 "string.quoted.single.handlebars",
-                "string.quoted.double.handlebars"
+                "string.quoted.double.handlebars",
+                "string.quoted.double.java"
             ],
             "settings": {
-                "foreground": "#0000FF"
+                "foreground": "#0000FF",
+                "fontStyle": "italic"
             }
         },
         {
@@ -995,18 +1000,17 @@
                 "storage.modifier.implements.java"
             ],
             "settings": {
-                "foreground": "#7F0052",
-                "fontStyle": "bold"
+                "foreground": "#7F0052"
             }
         },
         {
-            "name": "java.keyword.return",
-            "scope":[
+            "name": "java.control",
+            "scope": [
                 "keyword.control.java"
             ],
             "settings": {
                 "foreground": "#7F0052",
-                "fontStyle": "bold italic"
+                "fontStyle": "italic"
             }
         },
         {
