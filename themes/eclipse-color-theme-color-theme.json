@@ -57,7 +57,7 @@
         //"checkbox.background": "#ffffff",
         //"checkbox.border": "#cecece",
         //"debugConsole.errorForeground": "#a1260d",
-        //"debugConsole.infoForeground": "#75beff",
+        "debugConsole.infoForeground": "#000000",
         //"debugConsole.sourceForeground": "#616161",
         //"debugConsole.warningForeground": "#bf8803",
         //"debugConsoleInputIcon.foreground": "#616161",
