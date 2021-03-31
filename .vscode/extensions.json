@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "farukon.vscode-theme-eclipse"
+        "farukon.farukon-theme-dark",
+        "farukon.farukon-theme-light"
     ]
 }

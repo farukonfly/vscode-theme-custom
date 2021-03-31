@@ -1,6 +1,6 @@
 {
-    "name": "farukon-theme-light",
-    "displayName": "Farukon Light",
+    "name": "farukon-theme-dark",
+    "displayName": "Farukon Dark",
     "description": "",
     "publisher": "farukon",
     "version": "0.0.2",
@@ -8,7 +8,7 @@
         "name": "farukon"
     },
     "galleryBanner": {
-        "theme": "light"
+        "theme": "dark"
     },
     "engines": {
         "vscode": "^1.54.0"
@@ -17,7 +17,7 @@
         "Themes"
     ],
     "keywords": [
-        "Light",
+        "Dark",
         "Theme"
     ],
     "repository": {
@@ -27,9 +27,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Farukon Light",
-                "uiTheme": "vs",
-                "path": "./themes/farukon-theme-light.json"
+                "label": "Farukon Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/farukon-theme-dark.json"
             }
         ]
     }

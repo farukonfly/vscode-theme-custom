@@ -1,5 +1,5 @@
 {
-    "name": "eclipse-color-theme",
+    "name": "farukon-theme-light",
     "type": "light",
     "colors": {
         "activityBarBadge.background": "#007acc",
@@ -57,7 +57,7 @@
         //"checkbox.background": "#ffffff",
         //"checkbox.border": "#cecece",
         //"debugConsole.errorForeground": "#a1260d",
-        "debugConsole.infoForeground": "#000000",
+        "debugConsole.infoForeground": "#000000" 
         //"debugConsole.sourceForeground": "#616161",
         //"debugConsole.warningForeground": "#bf8803",
         //"debugConsoleInputIcon.foreground": "#616161",
@@ -572,7 +572,7 @@
             "fontStyle": "bold"
         },
         "interface": {
-            "foreground": "#6F42C1",
+            "foreground": "#C586C0",
             "fontStyle": "italic bold"
         },
         "enumMember": {
