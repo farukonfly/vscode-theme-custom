@@ -4,7 +4,7 @@
     "colors": {
         
         "activityBarBadge.background": "#007acc",
-        "editor.background": "#1e1e1e",//"#24292E",
+        "editor.background": "#24292E",//"#1e1e1e",//"#24292E",
         "editor.foreground": "#f0ffff",//"#9cdcfe", //"#d4d4d4"
         "editor.inactiveSelectionBackground": "#3a3d41",
         "editor.selectionHighlightBackground": "#add6ff26",
@@ -558,7 +558,7 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "keyword": {
-            "foreground": "#f97583"//"#4EC9B0"
+            "foreground": "#569CD6"//"#4EC9B0"
         },
         "class": {
             "foreground": "#E5C07B",
@@ -599,7 +599,7 @@
                 "storage.modifier.implements.java"
             ],
             "settings": {
-                "foreground": "#f97583"//"#4EC9B0"
+                "foreground": "#569CD6"//"#4EC9B0"
             }
         },
         {
@@ -608,7 +608,7 @@
                 "keyword.control.java"
             ],
             "settings": {
-                "foreground": "#f97583",//"#4EC9B0",
+                "foreground": "#569CD6",//"#4EC9B0",
                 "fontStyle": "italic"
             }
         },
