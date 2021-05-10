@@ -1,13 +1,14 @@
 {
+    "$schema": "vscode://schemas/color-theme",
     "name": "farukon-theme-dark",
     "type": "dark",
     "colors": {
         
         "activityBarBadge.background": "#007acc",
-        "editor.background": "#24292E",//"#1e1e1e",//"#24292E",
-        "editor.foreground": "#f0ffff",//"#9cdcfe", //"#d4d4d4"
+        "editor.background": "#1e1e1e",//"#24292E",
+        "editor.foreground": "#d4d4d4",//"#9cdcfe", //"#d4d4d4"
         "editor.inactiveSelectionBackground": "#3a3d41",
-        "editor.selectionHighlightBackground": "#add6ff26",
+        "editor.selectionHighlightBackground": "#16825d",//"#add6ff26",
         "editorIndentGuide.activeBackground": "#707070",
         "editorIndentGuide.background": "#404040",
         "input.placeholderForeground": "#a6a6a6",
@@ -557,6 +558,9 @@
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "property":{
+            "foreground": "#4EC9B0"
+        },  
         "keyword": {
             "foreground": "#569CD6"//"#4EC9B0"
         },
@@ -623,6 +627,7 @@
         },
         {
             "scope": [
+                "string.quoted.double.json.comments",
                 "string.comment.buffered.block.pug",
                 "string.quoted.pug",
                 "string.interpolated.pug",
@@ -641,7 +646,7 @@
                 "string.quoted.double.java"
             ],
             "settings": {
-                "foreground": "#CE9178",
+                "foreground": "#CE9178",//"#98C379",
                 "fontStyle": "italic"
             }
         },
@@ -675,13 +680,13 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#6A9955"
+                "foreground": "#6A9955",//"#5C6370"//
             }
         },
         {
             "scope": "constant.language",
             "settings": {
-                "foreground": "#569CD6"
+                "foreground": "#CE9178"//"#569CD6"
             }
         },
         {
@@ -868,19 +873,20 @@
                 "meta.embedded.assembly"
             ],
             "settings": {
-                "foreground": "#CE9178"
+                "foreground":"#CE9178"//,// "#98C379"//
+               // "fontStyle": "italic"
             }
         },
         {
             "scope": "string.tag",
             "settings": {
-                "foreground": "#CE9178"
+                "foreground": "#CE9178"//"#98C379"//"
             }
         },
         {
             "scope": "string.value",
             "settings": {
-                "foreground": "#CE9178"
+                "foreground": "#CE9178",//"#98C379"//
             }
         },
         {
@@ -989,7 +995,7 @@
                 "storage.modifier.package.java"
             ],
             "settings": {
-                "foreground":  "#f0ffff"//"#9CDCFE"//"#D4D4D4"
+                "foreground":  "#d4d4d4"//"#9CDCFE"//"#D4D4D4"
             }
         },
         {

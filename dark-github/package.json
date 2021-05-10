@@ -1,0 +1,36 @@
+{
+    "name": "farukon-theme-dark-github",
+    "displayName": "Farukon Dark GitHub",
+    "description": "",
+    "publisher": "farukon",
+    "version": "1.0.0",
+    "author": {
+        "name": "farukon"
+    },
+    "galleryBanner": {
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Dark",
+        "Theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": " https://github.com/farukonfly/vscode-theme-custom"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Farukon Dark GitHub",
+                "uiTheme": "vs-dark",
+                "path": "./themes/farukon-theme-dark-github.json"
+            }
+        ]
+    }
+}
