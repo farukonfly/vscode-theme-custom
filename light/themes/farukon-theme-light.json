@@ -1,4 +1,5 @@
 {
+    "$schema": "vscode://schemas/color-theme",
     "name": "farukon-theme-light",
     "type": "light",
     "colors": {
@@ -11,9 +12,11 @@
         "editorIndentGuide.background": "#d3d3d3",
         "editorSuggestWidget.background": "#f3f3f3",
         "input.placeholderForeground": "#767676",
+		"list.focusHighlightForeground": "#9dddff",
         "list.hoverBackground": "#e8e8e8",
         "notebook.cellBorderColor": "#e8e8e8",
         "notebook.selectedCellBackground": "#c8ddf150",
+		"ports.iconRunningProcessForeground": "#369432",
         "searchEditor.textInputBorder": "#cecece",
         "settings.numberInputBorder": "#cecece",
         "settings.textInputBorder": "#cecece",
