@@ -575,12 +575,15 @@
             "fontStyle": "bold"
         },
         "interface": {
-            "foreground": "#C586C0",
+            "foreground": "#6F42C1",
             "fontStyle": "italic bold"
         },
         "enumMember": {
             "foreground": "#C46200",
             "fontStyle": "italic"
+        },
+        "property":{
+            "foreground": "#0000C0"
         },
         //java:public static final
         "property.static.readonly.public": {
@@ -625,7 +628,7 @@
         {
             "scope": "constant.language",
             "settings": {
-                "foreground": "#0000FF"
+                "foreground": "#7f0052"
             }
         },
         {
@@ -898,7 +901,7 @@
         {
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#0000FF"
+                "foreground": "#7F0052"
             }
         },
         {
@@ -954,7 +957,6 @@
         {
             "scope": [
                 "storage.modifier.import.java",
-                "variable.language.wildcard.java",
                 "storage.modifier.package.java"
             ],
             "settings": {
@@ -964,7 +966,7 @@
         {
             "scope": "variable.language",
             "settings": {
-                "foreground": "#0000FF"
+                "foreground": "#7f0052"
             }
         },
         {
@@ -1004,16 +1006,6 @@
             ],
             "settings": {
                 "foreground": "#7F0052"
-            }
-        },
-        {
-            "name": "java.control",
-            "scope": [
-                "keyword.control.java"
-            ],
-            "settings": {
-                "foreground": "#7F0052",
-                "fontStyle": "italic"
             }
         },
         {

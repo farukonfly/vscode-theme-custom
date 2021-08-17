@@ -6,11 +6,27 @@
 	"version": "0.2.0",
     "configurations": [
         {
-            "name": "Extension",
+            "name": "light-theme",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/light" 
+            ]
+        },
+        {
+            "name": "dark-theme",
             "type": "extensionHost",
             "request": "launch",
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}/dark" 
+            ]
+        },
+        {
+            "name": "darkgithub-theme",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/dark-github" 
             ]
         }
     ]
